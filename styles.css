@@ -1,0 +1,51 @@
+body{
+  color: crimson;
+  background: rgb(255, 164, 128);
+  font-family: sans-serif;
+
+}
+.counter{
+  display: inline-block;
+  width: 30%;
+  color: crimson;
+  border: 1px solid crimson;
+  border-radius: 5px;
+  padding: 20px 0px 50px;
+  position:absolute;
+  text-align: center;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+
+}
+
+.count{
+  font-size: 70px;
+  font-weight: bold;
+  color:green;
+  font-family: serif;
+}
+
+.btn{
+  display: inline-block;
+  width: 150px;
+  height: 40px;
+  margin: 10px;
+  padding: 10px;
+  color: crimson;
+  background-color: transparent;
+  border: 1px solid crimson;
+  border-radius: 5px;
+  font-size: 20px;
+
+}
+
+.btn:hover{
+  color: white;
+  background-color: crimson;
+}
+
+
+.btn:disabled{
+  opacity: 40%;
+}
